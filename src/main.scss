@@ -1,0 +1,45 @@
+$primary:grey;
+// Import the rest of Bulma
+@import "~bulma";
+@import "~bulma-calendar/src/sass/index";
+
+// .datetimepicker-wrapper .modal-background {
+//     position: initial;
+// }
+
+.datetimepicker-dummy {
+    position: absolute;
+    width: 240px;
+    z-index: 999;
+    opacity: 0;
+}
+
+.datetimepicker.is-active {
+    margin-top: 52px;
+}
+
+.svg-icon {
+    height: 22px;
+}
+
+.has-bg-primary {
+    background-color: #dddddd7a !important;
+}
+
+.has-text-primary {
+    color: #dddddd7a !important
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.is-truncated {
+    // white-space: nowrap;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
